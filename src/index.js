@@ -8,7 +8,7 @@ function App() {
     return (
         <div>
             <video
-                autoPlay playsInline autostart={true}
+                autoPlay playsInline autostart="true"
                 src={video} type="video/mp4"
                 muted={true} className='app'
             />
